@@ -7,14 +7,13 @@
 }
 
 a:visited{
-        color: black;
+        color: inherit;
     }
 
 .header {
 display: flex;
 align-items: center;
 margin-top: 90px;
-
 }
 
 .header h1{
@@ -25,7 +24,8 @@ margin-top: 90px;
 .header h2{
   font-size: 20px;
   color: #4e4e4e;
-  padding-left:140px;
+  margin-left:140px;
+  cursor: pointer;
 }
 
 .categories h1{
