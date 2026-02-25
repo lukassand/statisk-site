@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: 'Arial Narrow Bold', sans-serif;
+     text-decoration: none;
+}
+
+a:visited{
+        color: black;
+    }
+
+.header {
+display: flex;
+align-items: center;
+margin-top: 90px;
+
+}
+
+.header h1{
+  font-size: 70px;
+  margin-left: 100px;
+}
+
+.header h2{
+  font-size: 20px;
+  color: #4e4e4e;
+  padding-left:140px;
+}
+
+.categories h1{
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+ .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+ }
+
+  .card {
+    background-color: #969696;
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+  }
+  
+.container2 img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container2 h1{
+    font-size: 20px;
+}
+
+.container2 h2{
+    font-size: 18px;
+    color: #999999;
+    margin-top: 5px;
+}
+
+.container2 p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.container2 .oldprice{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* make card a positioning context so badges can be placed absolutely */
+.container2 .card2{
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #8c8c8c;
+  color: white;
+  padding: 10px 15px;
+  font-size: 28px;
+  font-weight: 300;
+  z-index: 1;
+}
+
+.badge-discount{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #ff0000;
+  color: #000000;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 100px;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.product2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 100px;
+
+}
+
+.product2 h1{
+    font-size: 50px;
+  }
+
+  .product2 ul{
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .product2 li{
+    margin-bottom: 30px;
+  }
+
+
+  .product button{
+    width: fit-content;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
