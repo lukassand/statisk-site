@@ -6,9 +6,10 @@
      text-decoration: none;
 }
 
-a:visited{
+a, a:visited{
         color: inherit;
     }
+  
 
 .header {
 display: flex;
